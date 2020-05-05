@@ -5,3 +5,7 @@ spring:
       name: itoken-eureka   # 服务名称
       label: master  #git仓库版本
       profile: prod  #配置文件类型，dev,test,prod
+      # 下面一部分是通过注册中心连接配置中心，与上面的url直连是一样的效果，推荐使用下面这个
+      #discovery:
+        #service-id: itoken-config #配置中心的服务名称
+        #enabled: true

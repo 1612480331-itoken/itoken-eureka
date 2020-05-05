@@ -1,7 +1,7 @@
 spring:
-        cloud:
-          config:   #云配置
-            uri: http://localhost:8888  #spring cloud config云配置服务端口
-            name: itoken-eureka   # 服务名称
-            label: master  #git仓库版本
-            profile: dev  #配置文件类型，dev,test,prod
+  cloud:
+    config:   #云配置
+      uri: http://localhost:8888  #spring cloud config云配置服务端口
+      name: itoken-eureka   # 服务名称
+      label: master  #git仓库版本
+      profile: dev  #配置文件类型，dev,test,prod
